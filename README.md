@@ -1,38 +1,30 @@
-# 🗺️ GitHub 仓库导航
+# 🗺️ GitHub Repos Hub — 已合并
 
-> 👤 [@LessUp](https://github.com/LessUp) 的全部 GitHub 仓库分类索引
-> 🔗 帮助快速定位、管理和学习
-> 🔬 **[深度分析目录](./deep-dives/README.md)** — 每个仓库的详细学习指南（含架构、精髓、学习路径、面试考点）
+> ⚠️ **此仓库已合并到 [ai-infra-interview-prep](https://github.com/LessUp/ai-infra-interview-prep)**
 
-## 分类导航
+## 所有内容已迁移
 
-| 分类 | 文档 | 仓库数 |
-|------|------|--------|
-| ⭐ AI Infra 核心 | [链接](./ai-infra-core.md) | 7 |
-| 📖 AI Infra 辅助学习 | [链接](./ai-infra-auxiliary.md) | 13 |
-| 🖥️ HPC 与系统 | [链接](./hpc-and-systems.md) | 3 |
-| 👤 个人原创项目 | [链接](./personal-projects.md) | 7 |
-| 🛠️ 工具与其他 | [链接](./tools-and-others.md) | 2 |
-| 📚 建议阅读顺序 | [链接](./learning-path.md) | - |
-| 📇 全部索引 | [链接](./repo-index.md) | 29 |
+本仓库的全部内容（仓库分类、深度分析、学习路径）已合并到：
 
-## 🔬 深度分析（核心价值）
+👉 **[https://github.com/LessUp/ai-infra-interview-prep](https://github.com/LessUp/ai-infra-interview-prep)**
 
-每个 Fork 仓库都有独立的深度分析文件，包含：
-- **架构分析** — 目录结构、核心模块
-- **精髓提炼** — 该仓库最核心的 3-5 个概念/算法
-- **学习路径** — 按天排布的学习计划
-- **面试考点** — 该仓库对应的常见面试题
-- **动手练习** — 可执行的代码练习
+### 新仓库包含：
 
-👉 **[进入深度分析目录](./deep-dives/README.md)** 查看全部 21 个仓库的深度学习指南
+- 🗺️ **仓库导航与分类** — 全部 29 个仓库的 HTML 表格导航
+- 🔬 **21 个深度分析文件** — 每个 Fork 仓库的架构、精髓、学习路径、面试考点
+- 📋 **3 个月学习路线图** — 12 周详细学习计划
+- 🎤 **面试准备** — 常见面试题、权重分析
+- 📅 **每周计划** — 每天的具体学习任务
 
-## 关于
+### 快速导航
 
-这个仓库是我 GitHub 上所有项目的"地图"。
-每个分类文档都包含：
-- 仓库链接
-- 简要描述
-- 重要性评级
-- 建议学习顺序
-- **深度分析链接**（含架构、精髓、学习路径、面试考点）
+| 内容 | 链接 |
+|------|------|
+| 仓库导航 | [README](https://github.com/LessUp/ai-infra-interview-prep#-repo-navigation) |
+| 深度分析 | [deep-dives/](https://github.com/LessUp/ai-infra-interview-prep/tree/main/deep-dives) |
+| 学习路线图 | [ROADMAP.md](https://github.com/LessUp/ai-infra-interview-prep/blob/main/ROADMAP.md) |
+| 每周计划 | [weekly/](https://github.com/LessUp/ai-infra-interview-prep/tree/main/weekly) |
+
+---
+
+**请前往新仓库：[LessUp/ai-infra-interview-prep](https://github.com/LessUp/ai-infra-interview-prep)**
