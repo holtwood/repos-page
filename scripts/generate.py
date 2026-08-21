@@ -114,7 +114,7 @@ def repos_for_slug(data, slug):
 
 
 def render_row(repo, config):
-    return "| " + " | ".join(col(repo) for col in config["cols"]) + " |"
+    return "| " + " | ".join((col(repo) or "-") for col in config["cols"]) + " |"
 
 
 def render_table(repos, config):

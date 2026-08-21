@@ -494,9 +494,10 @@
       "behind": 0,
       "language": "Python",
       "priority": "无",
-      "categories": ["forks-and-translations"],
+      "categories": ["forks-and-translations", "tools-and-unrelated"],
       "notes": {
-        "forks-and-translations": "Termius 汉化，与 AI Infra 无关"
+        "forks-and-translations": "Termius 汉化，与 AI Infra 无关",
+        "tools-and-unrelated": "Termius 汉化"
       }
     },
     {
