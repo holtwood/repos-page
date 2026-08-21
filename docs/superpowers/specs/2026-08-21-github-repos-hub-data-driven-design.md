@@ -123,7 +123,7 @@ github-repos-hub/
 |------|------|------|
 | `name` | 是 | 仓库名（不含 owner） |
 | `account` | 是 | 所属账号/组织：LessUp / open-infra-ai / open-genomics / vibe-knight |
-| `visibility` | 是 | public / private。private 仅存名称用于统计，**不渲染详情** |
+| `visibility` | 是 | 仅 `public`（`repos[]` 只含公开仓库，私有仓库名称不落库，见下方约束） |
 | `property` | 是 | original / fork / translation / org-project / migrated / retired |
 | `upstream` | 否 | 仅 fork/translation：`owner/repo` 上游地址 |
 | `ahead` / `behind` | 否 | 仅 fork：compare API 快照，审计日有效 |
@@ -141,15 +141,16 @@ github-repos-hub/
 |------|------|-------------|
 | `lessup-owned` | catalog/lessup-owned.md | 9 个原创公开仓库全表自动 |
 | `forks-and-translations` | catalog/forks-and-translations.md | 22 个 fork 全表自动 |
-| `organizations` | catalog/organizations.md | 组织仓库表自动；组织叙事段落手工 |
-| `original-projects` | catalog/original-projects.md | 简历候选池表格自动（note 承载证据文字） |
-| `ai-infra` | catalog/ai-infra.md | P0 项目组表自动；P1–P3 策略段落手工 |
-| `hpc-and-transferable` | catalog/hpc-and-transferable.md | 可表格化行自动；Fork/删除叙事保留手工 |
-| `tools-and-unrelated` | catalog/tools-and-unrelated.md | 仅可表格化部分自动；分组列举叙事保留手工 |
+| `organizations` | catalog/organizations.md | open-infra-ai 仓库表自动（7 行）；open-genomics/vibe-knight 叙事段落手工 |
+| `original-projects` | catalog/original-projects.md | open-infra-ai 与 open-genomics 两张表自动；vibe-knight 列举段手工（note 承载证据文字） |
+| `ai-infra` | catalog/ai-infra.md | **全手工**（P0 表为"项目组 + 多仓库合并列"分组叙事，数据化收益低，见 §8） |
+| `hpc-and-transferable` | catalog/hpc-and-transferable.md | 主表格自动；Fork/已删除叙事行保留手工 |
+| `tools-and-unrelated` | catalog/tools-and-unrelated.md | LessUp 个人表自动；vibe-knight/open-genomics 分组列举保留手工 |
 | `retired-and-migrated` | catalog/retired-and-migrated.md | 全手工（历史记录，见 §8 决策） |
 
-**私有仓库约束**（遵循 methodology.md）：`visibility: private` 的仓库名可存于 JSON 用于
-数量统计，但 `generate.py` 在渲染任何 markdown 时不得输出其名称或描述。
+**私有仓库约束**（遵循 methodology.md）：`repos[]` **只含公开仓库**。私有仓库
+**名称与描述不得出现在 `repos.json` 或任何渲染输出**（JSON 在公开仓库内，同样属于公开文档），
+仅以 `accounts` 中的计数体现（如 `"private": 1`）。
 
 ## 5. 生成器 `scripts/generate.py` 规格
 
@@ -262,9 +263,11 @@ jobs:
 |------|------|------|
 | 维护模式 | 占位符混合模式 | 表格自动、策略文字保留手工判断；全 JSON 驱动会把策略藏进数据层，维护体验差 |
 | 数据模型 | 一个仓库多 `categories` | fq-compressor 等跨分类仓库（original-projects + hpc-and-transferable） |
+| 私有仓库 | `repos[]` 只含公开仓库 | methodology.md：私有仓库名称/描述不进入公开文档；JSON 在公开仓库内同属公开文档 |
 | 站点位置 | 根目录 index.html + Pages 根发布 | docsify 官方推荐，路径干净 |
 | CHANGELOG | 生成器自动追加数据快照条目 | 保留数据历史；Keep a Changelog 风格 |
 | retired-and-migrated | 全手工 | 历史映射记录是"过程叙事"非结构化数据，强行 JSON 化收益低 |
+| ai-infra | 全手工 | P0 表为"项目组 + 多仓库合并列"分组叙事，且 P1–P3 全为策略文字；数据化收益低 |
 | 站点技术 | docsify | MkDocs Material 已进维护模式；Docusaurus 过重 |
 | 审计频率 | 每周一非整点 + workflow_dispatch | ahead/behind 变化慢，一周一次足够；避免刷屏 PR |
 | 自动 PR | 新分支 + PR，不直写 main | Dependabot 式，人 review 后合并，安全可回滚 |
