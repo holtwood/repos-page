@@ -125,13 +125,19 @@ def render_table(repos, config):
 
 
 def replace_in_text(text, slug, table):
-    """在内存文本中替换 slug 占位符之间的内容；缺失占位符则报错退出。"""
+    """在内存文本中替换 slug 占位符之间的内容；缺失占位符则报错退出。
+
+    只替换与 slug 同名的占位符对；文件中其他占位符对原样保留。
+    """
     marker = f"<!-- AUTO:start {slug} -->"
     if marker not in text or f"<!-- AUTO:end {slug} -->" not in text:
         print(f"ERROR: 缺少占位符 {slug}", file=sys.stderr)
         sys.exit(1)
-    new, n = PLACEHOLDER_RE.subn(
-        lambda m: f"{marker}\n{table}\n<!-- AUTO:end {slug} -->", text)
+    def _repl(m):
+        if m.group(1) != slug:
+            return m.group(0)
+        return f"{marker}\n{table}\n<!-- AUTO:end {slug} -->"
+    new, n = PLACEHOLDER_RE.subn(_repl, text)
     if n == 0:
         print(f"ERROR: 占位符 {slug} 未匹配", file=sys.stderr)
         sys.exit(1)

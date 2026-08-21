@@ -78,6 +78,17 @@ srow = generate.render_row(FIXTURE["repos"][0],
                            generate.CATEGORY_CONFIG["forks-and-translations"])
 check("字符串 notes 渲染", "说明A" in srow and "26/0" in srow, srow)
 
+# 7. 多占位符文件：只替换目标 slug，其他占位符原样保留（回归测试）
+with tempfile.TemporaryDirectory() as td:
+    p = Path(td) / "t.md"
+    p.write_text("<!-- AUTO:start original-projects -->\n表A\n"
+                 "<!-- AUTO:end original-projects -->\n\n"
+                 "<!-- AUTO:start original-projects-genomics -->\n表B\n"
+                 "<!-- AUTO:end original-projects-genomics -->", encoding="utf-8")
+    out = generate.replace_placeholders(p, "original-projects-genomics", "新表B")
+    check("多占位符只替换目标",
+          "新表B" in out and "表A" in out and "\n表B\n" not in out, out)
+
 if FAILURES:
     print("\n".join(FAILURES), file=sys.stderr)
     sys.exit(1)
