@@ -172,8 +172,15 @@ def render_badges(data):
             f"![文档站](https://img.shields.io/badge/文档站-docsify-8A2BE2)")
 
 
-MANUAL_SIDEBAR = {
+# sidebar 显示标题与各文件 H1 一致
+SIDEBAR_TITLES = {
+    "lessup-owned": "LessUp 个人原创（非 Fork）公开仓库",
+    "forks-and-translations": "Fork 与 AI 翻译仓库",
+    "organizations": "组织仓库概览与贡献审计",
+    "original-projects": "组织下的原创项目（含贡献者审计）",
     "ai-infra": "AI Infra 优先级与阅读范围",
+    "hpc-and-transferable": "HPC 与可迁移能力项目",
+    "tools-and-unrelated": "工具类与非 AI Infra 项目",
     "retired-and-migrated": "已撤销/已迁移仓库与失效链接",
 }
 
@@ -183,9 +190,7 @@ def render_sidebar(data):
     for slug in ["lessup-owned", "forks-and-translations", "organizations",
                  "original-projects", "ai-infra", "hpc-and-transferable",
                  "tools-and-unrelated", "retired-and-migrated"]:
-        cfg = CATEGORY_CONFIG.get(slug)
-        title = cfg["title"] if cfg else MANUAL_SIDEBAR[slug]
-        lines.append(f"  - [{title}](catalog/{slug}.md)")
+        lines.append(f"  - [{SIDEBAR_TITLES[slug]}](catalog/{slug}.md)")
     lines += ["", "- **deep-dives**"]
     for p in sorted((CATALOG.parent / "deep-dives").glob("*.md")):
         if p.name == "README.md":

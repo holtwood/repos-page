@@ -1,13 +1,13 @@
 - [🏠 首页](README.md)
 
 - **catalog**
-  - [LessUp 个人原创](catalog/lessup-owned.md)
+  - [LessUp 个人原创（非 Fork）公开仓库](catalog/lessup-owned.md)
   - [Fork 与 AI 翻译仓库](catalog/forks-and-translations.md)
-  - [open-infra-ai（AI Infra 作品集）](catalog/organizations.md)
-  - [open-infra-ai — AI Infra 作品集（P0，简历主线）](catalog/original-projects.md)
+  - [组织仓库概览与贡献审计](catalog/organizations.md)
+  - [组织下的原创项目（含贡献者审计）](catalog/original-projects.md)
   - [AI Infra 优先级与阅读范围](catalog/ai-infra.md)
   - [HPC 与可迁移能力项目](catalog/hpc-and-transferable.md)
-  - [LessUp 个人](catalog/tools-and-unrelated.md)
+  - [工具类与非 AI Infra 项目](catalog/tools-and-unrelated.md)
   - [已撤销/已迁移仓库与失效链接](catalog/retired-and-migrated.md)
 
 - **deep-dives**
