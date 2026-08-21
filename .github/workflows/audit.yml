@@ -1,0 +1,47 @@
+name: weekly-audit
+on:
+  schedule:
+    - cron: "7 9 * * 1"   # 每周一 09:07 UTC
+  workflow_dispatch: {}   # 支持手动触发
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run audit (refresh repos.json)
+        run: |
+          set +e
+          python3 scripts/audit.py
+          exit_code=$?
+          set -e
+          echo "audit_exit=$exit_code" >> "$GITHUB_ENV"
+          # 0=无变化 1=有变化(预期) 2=gh 不可用/错误
+          if [ "$exit_code" -eq 2 ]; then exit 2; fi
+
+      - name: Regenerate docs + changelog (only when data changed)
+        if: env.audit_exit == '1'
+        run: |
+          python3 scripts/generate.py \
+            --changelog "数据快照更新（$(date +%Y-%m-%d)）：ahead/behind 与链接状态已刷新"
+
+      - name: Open PR if changed
+        run: |
+          if git diff --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          BRANCH="audit/$(date +%Y%m%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "chore: weekly audit data refresh ($(date +%Y-%m-%d))"
+          git push origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "chore: weekly audit refresh" --fill
