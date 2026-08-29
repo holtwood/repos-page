@@ -27,7 +27,7 @@ flash-attention、flashinfer、vllm、sglang、TensorRT-LLM、triton、LightLLM�
 4. 一个可运行实验
 5. 五个面试问题
 
-（产出落在 [ai-infra-interview-prep](https://github.com/LessUp/ai-infra-interview-prep) 的对应周文件，
+（产出落在 [ai-infra-interview-prep](https://github.com/holtwood/ai-infra-interview-prep) 的对应周文件，
 仓库本身不修改。）
 
 ## P3 — 按需或低优先级

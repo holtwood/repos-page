@@ -7,14 +7,14 @@
 
 | 旧地址 | 状态 | 处理 |
 |--------|------|------|
-| LessUp/sgemm-optimization | 404，无重定向 | 主页移除展示；SGEMM 主题由 SGEMM_CUDA（Fork+中文注释）与 open-infra-ai/cuda-foundations 覆盖 |
-| LessUp/the-art-of-hpc-zh | 404，无重定向 | 主页移除展示（HPC 教材中文翻译，已放弃） |
-| LessUp/cursor-rules | 404，无重定向 | 主页移除展示 |
-| LessUp/awesome-claude-skills-zh | 404，无重定向 | 主页移除展示 |
+| holtwood/sgemm-optimization | 404，无重定向 | 主页移除展示；SGEMM 主题由 SGEMM_CUDA（Fork+中文注释）与 open-infra-ai/cuda-foundations 覆盖 |
+| holtwood/the-art-of-hpc-zh | 404，无重定向 | 主页移除展示（HPC 教材中文翻译，已放弃） |
+| holtwood/cursor-rules | 404，无重定向 | 主页移除展示 |
+| holtwood/awesome-claude-skills-zh | 404，无重定向 | 主页移除展示 |
 
 ## 迁移后靠 GitHub 自动重定向工作的链接（5 个）
 
-| 旧地址（LessUp/…） | 301 目标（规范地址） |
+| 旧地址（holtwood/…） | 301 目标（规范地址） |
 |--------------------|--------------------|
 | fq-compressor | open-genomics/fq-compressor |
 | fastq-tools | open-genomics/fastq-tools |
@@ -26,14 +26,14 @@
 
 | 主页旧链接 | 实际所在 | 处理 |
 |-----------|---------|------|
-| LessUp/wiki-bioinfo | open-genomics/wiki-bioinfo | 主页改用规范地址 |
-| LessUp/compress-kit | vibe-knight/compress-kit | 同上 |
-| LessUp/bookmarks-cleaner | vibe-knight/bookmarks-cleaner | 同上 |
-| LessUp/graph-viewer | vibe-knight/graph-viewer | 同上 |
-| LessUp/meta-human | vibe-knight/meta-human | 同上 |
-| LessUp/mind-gym | vibe-knight/mind-gym | 同上 |
-| LessUp/yolo-toys | vibe-knight/yolo-toys | 同上 |
-| LessUp/webrtc | vibe-knight/webrtc-demo（信令服务器另在 webrtc-signaling） | 同上 |
+| holtwood/wiki-bioinfo | open-genomics/wiki-bioinfo | 主页改用规范地址 |
+| holtwood/compress-kit | vibe-knight/compress-kit | 同上 |
+| holtwood/bookmarks-cleaner | vibe-knight/bookmarks-cleaner | 同上 |
+| holtwood/graph-viewer | vibe-knight/graph-viewer | 同上 |
+| holtwood/meta-human | vibe-knight/meta-human | 同上 |
+| holtwood/mind-gym | vibe-knight/mind-gym | 同上 |
+| holtwood/yolo-toys | vibe-knight/yolo-toys | 同上 |
+| holtwood/webrtc | vibe-knight/webrtc-demo（信令服务器另在 webrtc-signaling） | 同上 |
 
 ## 组织改名
 

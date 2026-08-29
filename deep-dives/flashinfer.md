@@ -1,7 +1,7 @@
 # 🔬 FlashInfer 深度学习指南
 
 > **上游：** [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer)
-> **你的 Fork：** [LessUp/flashinfer](https://github.com/LessUp/flashinfer)
+> **你的 Fork：** [holtwood/flashinfer](https://github.com/holtwood/flashinfer)
 > **语言：** Python / CUDA
 > **建议学习时间：** 1 周
 > **面试重要性：** ⭐⭐⭐⭐

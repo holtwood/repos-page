@@ -1,7 +1,7 @@
 # 🔬 Flash Attention 深度学习指南
 
 > **上游：** [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention)
-> **你的 Fork：** [LessUp/flash-attention](https://github.com/LessUp/flash-attention)
+> **你的 Fork：** [holtwood/flash-attention](https://github.com/holtwood/flash-attention)
 > **语言：** Python / C++ / CUDA
 > **建议学习时间：** 1 周
 > **面试重要性：** ⭐⭐⭐⭐⭐

@@ -1,7 +1,7 @@
 # 🔬 CUDA Course 学习指南
 
 > **上游：** [Infatoshi/cuda-course](https://github.com/Infatoshi/cuda-course)
-> **你的 Fork：** [LessUp/cuda-course](https://github.com/LessUp/cuda-course)
+> **你的 Fork：** [holtwood/cuda-course](https://github.com/holtwood/cuda-course)
 > **语言：** CUDA
 > **建议学习时间：** 3 天
 > **面试重要性：** ⭐⭐⭐

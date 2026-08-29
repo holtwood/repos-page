@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "repos.json"
-ACCOUNTS = ["LessUp", "open-infra-ai", "open-genomics", "vibe-knight"]
+ACCOUNTS = ["holtwood", "open-infra-ai", "open-genomics", "vibe-knight"]
 
 
 def gh(args, check=True):
@@ -137,16 +137,16 @@ def main():
                                    f"{repo.get('ahead')}/{repo.get('behind')} -> {a}/{b}")
                     repo["ahead"], repo["behind"] = a, b
 
-    # 3. 仓库清单差异检测：仅 LessUp（该账号 repos[] 要求全覆盖）；
+    # 3. 仓库清单差异检测：仅 holtwood（该账号 repos[] 要求全覆盖）；
     # org 账号部分仓库设计上不入库（手工列举分类），不检测避免噪声
     listed = {}
-    for acct in ["LessUp"]:
+    for acct in ["holtwood"]:
         try:
             listed[acct] = {r["name"] for r in fetch_repo_list(acct)
                             if r.get("visibility") == "PUBLIC"}
         except RuntimeError:
             listed[acct] = set()
-    for acct in ["LessUp"]:
+    for acct in ["holtwood"]:
         in_json = {r["name"] for r in data["repos"] if r["account"] == acct}
         missing = listed[acct] - in_json
         extra = in_json - listed[acct]

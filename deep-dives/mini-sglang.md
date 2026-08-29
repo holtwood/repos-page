@@ -1,7 +1,7 @@
 # 🔬 Mini SGLang 学习指南
 
 > **上游：** [sgl-project/mini-sglang](https://github.com/sgl-project/mini-sglang)
-> **你的 Fork：** [LessUp/mini-sglang](https://github.com/LessUp/mini-sglang)
+> **你的 Fork：** [holtwood/mini-sglang](https://github.com/holtwood/mini-sglang)
 > **语言：** Python
 > **建议学习时间：** 2 天
 > **面试重要性：** ⭐⭐⭐

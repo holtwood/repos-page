@@ -1,7 +1,7 @@
 # 🔬 SGLang 深度学习指南
 
 > **上游：** [sgl-project/sglang](https://github.com/sgl-project/sglang)
-> **你的 Fork：** [LessUp/sglang](https://github.com/LessUp/sglang)
+> **你的 Fork：** [holtwood/sglang](https://github.com/holtwood/sglang)
 > **语言：** Python / C++ / CUDA
 > **建议学习时间：** 1 周
 > **面试重要性：** ⭐⭐⭐⭐⭐

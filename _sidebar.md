@@ -1,7 +1,7 @@
 - [🏠 首页](README.md)
 
 - **catalog**
-  - [LessUp 个人原创（非 Fork）公开仓库](catalog/lessup-owned.md)
+  - [holtwood 个人原创（非 Fork）公开仓库](catalog/lessup-owned.md)
   - [Fork 与 AI 翻译仓库](catalog/forks-and-translations.md)
   - [组织仓库概览与贡献审计](catalog/organizations.md)
   - [组织下的原创项目（含贡献者审计）](catalog/original-projects.md)

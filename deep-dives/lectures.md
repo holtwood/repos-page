@@ -1,7 +1,7 @@
 # 🔬 GPU Mode Lectures 学习指南
 
 > **上游：** [gpu-mode/lectures](https://github.com/gpu-mode/lectures)
-> **你的 Fork：** [LessUp/lectures](https://github.com/LessUp/lectures)
+> **你的 Fork：** [holtwood/lectures](https://github.com/holtwood/lectures)
 > **语言：** Jupyter Notebook
 > **建议学习时间：** 持续（贯穿整个学习过程）
 > **面试重要性：** ⭐⭐⭐⭐

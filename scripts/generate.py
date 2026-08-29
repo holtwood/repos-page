@@ -50,7 +50,7 @@ def note(slug, key=None):
 
 CATEGORY_CONFIG = {
     "lessup-owned": {
-        "title": "LessUp 个人原创",
+        "title": "holtwood 个人原创",
         "headers": ["仓库", "语言", "领域", "AI Infra 相关性", "简历可用性", "说明"],
         "cols": [repo_link, lambda r: r.get("language", ""), lambda r: r.get("domain", ""),
                  lambda r: r.get("ai_relevance", ""), lambda r: r.get("resume_level", ""),
@@ -87,7 +87,7 @@ CATEGORY_CONFIG = {
                  note("hpc-and-transferable", "usage")],
     },
     "tools-and-unrelated": {
-        "title": "LessUp 个人",
+        "title": "holtwood 个人",
         "headers": ["仓库", "说明"],
         "cols": [repo_link, note("tools-and-unrelated")],
     },
@@ -165,16 +165,86 @@ def render_badges(data):
     pub = sum(a["public"] for a in accts.values())
     forks = sum(a["forks"] for a in accts.values())
     audited = data["audited_at"]
-    return (f"![审计日期](https://img.shields.io/badge/审计-{audited}-4c9)\n"
-            f"![仓库总数](https://img.shields.io/badge/仓库-{total}-4c9)\n"
-            f"![公开](https://img.shields.io/badge/公开-{pub}-blue)\n"
-            f"![Fork](https://img.shields.io/badge/Fork-{forks}-orange)\n"
-            f"![文档站](https://img.shields.io/badge/文档站-docsify-8A2BE2)")
+    badges = [
+        f"![审计日期](https://img.shields.io/badge/审计-{audited}-4c9)",
+        f"![仓库总数](https://img.shields.io/badge/仓库-{total}-4c9)",
+        f"![公开](https://img.shields.io/badge/公开-{pub}-blue)",
+        f"![Fork](https://img.shields.io/badge/Fork-{forks}-orange)",
+        "![文档站](https://img.shields.io/badge/文档站-docsify-8A2BE2)",
+    ]
+    return " ".join(badges)
+
+
+# --- 精选区（README 顶部"主要开发项目"） ---
+FEATURED_EXCLUDE = {"repos-page", ".github", "LessUp"}
+RESUME_ORDER = {"高": 0, "中": 1, "低": 2, "": 3}
+AI_ORDER = {"高": 0, "中": 1, "低": 2, "无": 3, "": 4}
+PRIORITY_ORDER = {"P0": 0, "P1": 1, "P2": 2, "P3": 3, "无": 4, "": 4}
+
+
+def featured_tagline(r):
+    """精选区定位文本：org-project 取 original-projects.position，original 取 lessup-owned notes。"""
+    if r.get("property") == "org-project":
+        v = r.get("notes", {}).get("original-projects", "")
+        if isinstance(v, dict):
+            return v.get("position", "")
+        return v if isinstance(v, str) else ""
+    v = r.get("notes", {}).get("lessup-owned", "")
+    return v if isinstance(v, str) else ""
+
+
+def is_featured(r):
+    """主要开发项目入选规则：original（简历高/中）或 org-project（P0 且个人主导）。"""
+    if r.get("name") in FEATURED_EXCLUDE:
+        return False
+    if r.get("property") == "original":
+        return r.get("resume_level") in ("高", "中")
+    if r.get("property") == "org-project":
+        if r.get("priority") != "P0":
+            return False
+        contributors = r.get("contributors", "")
+        return not contributors or "holtwood" in contributors
+    return False
+
+
+def featured_sort_key(r):
+    """排序键：open-infra-ai P0（简历主线）→ 其他 org P0 → holtwood 原创；字段序 + 名称兜底。"""
+    if r["property"] == "org-project":
+        tier = 0 if r["account"] == "open-infra-ai" else 1
+    else:
+        tier = 2
+    return (tier,
+            PRIORITY_ORDER.get(r.get("priority", ""), 4),
+            RESUME_ORDER.get(r.get("resume_level", ""), 3),
+            AI_ORDER.get(r.get("ai_relevance", ""), 4),
+            r["account"], r["name"])
+
+
+FEATURED_CONFIG = {
+    "title": "主要开发项目精选",
+    "headers": ["项目", "语言", "归属", "定位"],
+    "cols": [repo_link, lambda r: r.get("language", ""),
+             lambda r: r.get("account", ""), featured_tagline],
+}
+
+
+def render_featured(data):
+    """渲染 README 顶部"主要开发项目"精选表格。"""
+    repos = [r for r in data["repos"] if is_featured(r)]
+    repos.sort(key=featured_sort_key)
+    return render_table(repos, FEATURED_CONFIG)
+
+
+def readme_sections(data):
+    """README 占位符 slug -> 表格，供 main()/check() 共用，避免两条路径发散。"""
+    return [("featured", render_featured(data)),
+            ("accounts", render_accounts_table(data)),
+            ("badges", render_badges(data))]
 
 
 # sidebar 显示标题与各文件 H1 一致
 SIDEBAR_TITLES = {
-    "lessup-owned": "LessUp 个人原创（非 Fork）公开仓库",
+    "lessup-owned": "holtwood 个人原创（非 Fork）公开仓库",
     "forks-and-translations": "Fork 与 AI 翻译仓库",
     "organizations": "组织仓库概览与贡献审计",
     "original-projects": "组织下的原创项目（含贡献者审计）",
@@ -240,8 +310,7 @@ def check(root=ROOT):
     readme_path = root / "README.md"
     if readme_path.exists():
         text = readme_path.read_text(encoding="utf-8")
-        for slug, table in (("accounts", render_accounts_table(data)),
-                            ("badges", render_badges(data))):
+        for slug, table in readme_sections(data):
             if f"<!-- AUTO:start {slug} -->" in text:
                 text = replace_in_text(text, slug, table)
         if text != readme_path.read_text(encoding="utf-8"):
@@ -285,10 +354,9 @@ def main():
         f.write_text(text, encoding="utf-8")
         print(f"rendered: {f.name} ({total} rows)")
 
-    # README：概览表 + 徽章（内存连续替换）
+    # README：精选区 + 概览表 + 徽章（内存连续替换）
     readme = README.read_text(encoding="utf-8")
-    for slug, table in (("accounts", render_accounts_table(data)),
-                        ("badges", render_badges(data))):
+    for slug, table in readme_sections(data):
         if f"<!-- AUTO:start {slug} -->" in readme:
             readme = replace_in_text(readme, slug, table)
     README.write_text(readme, encoding="utf-8")

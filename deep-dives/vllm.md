@@ -1,7 +1,7 @@
 # 🔬 vLLM 深度学习指南
 
 > **上游：** [vllm-project/vllm](https://github.com/vllm-project/vllm)
-> **你的 Fork：** [LessUp/vllm](https://github.com/LessUp/vllm)
+> **你的 Fork：** [holtwood/vllm](https://github.com/holtwood/vllm)
 > **语言：** Python / C++ / CUDA
 > **建议学习时间：** 2 周
 > **面试重要性：** ⭐⭐⭐⭐⭐

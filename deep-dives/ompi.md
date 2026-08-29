@@ -1,7 +1,7 @@
 # 🔬 Open MPI 学习指南
 
 > **上游：** [open-mpi/ompi](https://github.com/open-mpi/ompi)
-> **你的 Fork：** [LessUp/ompi](https://github.com/LessUp/ompi)
+> **你的 Fork：** [holtwood/ompi](https://github.com/holtwood/ompi)
 > **语言：** C
 > **建议学习时间：** 按需
 > **面试重要性：** ⭐⭐

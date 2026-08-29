@@ -5,6 +5,8 @@
 ## [Unreleased] — 2026-08-19
 
 ### Changed
+- 账号迁移:LessUp → holtwood(repos-page);README 主页化 + GitHub Pages 部署
+- 新增 README 主要项目精选区(render_featured)与 GitHub Pages 文档站部署(pages.yml)
 
 - 恢复本仓库作为**独立仓库导航中心**的职责：README 从"已合并跳转页"重写为导航首页，
   含账号概览、目录结构与职责边界表。

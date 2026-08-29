@@ -1,7 +1,7 @@
 # 🔬 Triton 深度学习指南
 
 > **上游：** [triton-lang/triton](https://github.com/triton-lang/triton)
-> **你的 Fork：** [LessUp/triton](https://github.com/LessUp/triton)
+> **你的 Fork：** [holtwood/triton](https://github.com/holtwood/triton)
 > **语言：** MLIR / Python / C++
 > **建议学习时间：** 1.5 周
 > **面试重要性：** ⭐⭐⭐⭐⭐

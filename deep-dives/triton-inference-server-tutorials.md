@@ -1,7 +1,7 @@
 # 🔬 Triton Inference Server Tutorials 学习指南
 
 > **上游：** [triton-inference-server/tutorials](https://github.com/triton-inference-server/tutorials)
-> **你的 Fork：** [LessUp/tutorials](https://github.com/LessUp/tutorials)
+> **你的 Fork：** [holtwood/tutorials](https://github.com/holtwood/tutorials)
 > **语言：** Python
 > **建议学习时间：** 按需
 > **面试重要性：** ⭐⭐

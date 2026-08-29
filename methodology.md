@@ -2,9 +2,9 @@
 
 ## 数据来源（2026-08-19 实时采样）
 
-- 账号与组织仓库清单：`gh repo list LessUp --limit 100`、`gh api orgs/{org}/repos?per_page=100`
-- Fork 上游：`gh api repos/LessUp/{repo}` 的 `parent.full_name`
-- ahead/behind：`gh api repos/{upstream}/compare/{branch}...LessUp:{repo}:{branch}`
+- 账号与组织仓库清单：`gh repo list holtwood --limit 100`、`gh api orgs/{org}/repos?per_page=100`
+- Fork 上游：`gh api repos/holtwood/{repo}` 的 `parent.full_name`
+- ahead/behind：`gh api repos/{upstream}/compare/{branch}...holtwood:{repo}:{branch}`
 - 贡献者审计：`gh api repos/{repo}/contributors`
 - 链接有效性：HTTP 状态码 + `Location` 头（`curl -sI`），区分 200/301/404
 - Fork ahead 提交性质：抽样读取 compare API 返回的 commit message 与作者

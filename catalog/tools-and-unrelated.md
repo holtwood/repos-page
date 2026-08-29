@@ -2,16 +2,17 @@
 
 与 AI Infra 转行主线无关的公开仓库，只做导航，不进入学习路线。
 
-## LessUp 个人
+## holtwood 个人
 
 <!-- AUTO:start tools-and-unrelated -->
 | 仓库 | 说明 |
 |---|---|
-| [stars-index](https://github.com/LessUp/stars-index) | 1300+ Star 项目分类索引（本 Hub 不复制其内容） |
-| [TensorTonic-Solutions](https://github.com/LessUp/TensorTonic-Solutions) | TensorTonic 题解 |
-| [awesome-cursorrules-zh](https://github.com/LessUp/awesome-cursorrules-zh) | Cursor 规则中文精选（AI 翻译/整理性质） |
-| [hugo-blog](https://github.com/LessUp/hugo-blog) | 个人博客 |
-| [Termius-Pro-zh_CN](https://github.com/LessUp/Termius-Pro-zh_CN) | Termius 汉化 |
+| [stars-index](https://github.com/holtwood/stars-index) | 1300+ Star 项目分类索引（本 Hub 不复制其内容） |
+| [TensorTonic-Solutions](https://github.com/holtwood/TensorTonic-Solutions) | TensorTonic 题解 |
+| [awesome-cursorrules-zh](https://github.com/holtwood/awesome-cursorrules-zh) | Cursor 规则中文精选（AI 翻译/整理性质） |
+| [hugo-blog](https://github.com/holtwood/hugo-blog) | 个人博客 |
+| [JadeAI](https://github.com/holtwood/JadeAI) | 求职工具 |
+| [Termius-Pro-zh_CN](https://github.com/holtwood/Termius-Pro-zh_CN) | Termius 汉化 |
 <!-- AUTO:end tools-and-unrelated -->
 
 ## vibe-knight 应用与工具

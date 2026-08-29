@@ -1,11 +1,11 @@
 # 组织下的原创项目（含贡献者审计）
 
-审计日期：2026-08-19。贡献者数据来自 GitHub contributors API；仅 LessUp（含 bot）
+审计日期：2026-08-19。贡献者数据来自 GitHub contributors API；仅 holtwood（含 bot）
 的项目可表述为个人主导。**这是简历"项目经历"的候选池。**
 
 ## open-infra-ai — AI Infra 作品集（P0，简历主线）
 
-贡献者审计：全部仓库仅 LessUp（+ CI/dependabot bot）。
+贡献者审计：全部仓库仅 holtwood（+ CI/dependabot bot）。
 
 <!-- AUTO:start original-projects -->
 | 项目 | 定位与证据 | 简历用法 |
@@ -22,7 +22,7 @@
 
 ## open-genomics — 生物信息与 C++ 工程（P0 辅助 / P2）
 
-贡献者审计：fq-compressor、fastq-tools 等 contributors 仅 LessUp（micos-2024 另有 dependabot）。
+贡献者审计：fq-compressor、fastq-tools 等 contributors 仅 holtwood（micos-2024 另有 dependabot）。
 
 <!-- AUTO:start original-projects-genomics -->
 | 项目 | 定位 | 简历用法 |
@@ -38,7 +38,7 @@
 
 ## vibe-knight — 实验性与工具项目（P2/P3）
 
-贡献者审计：抽查 compress-kit contributors 仅 LessUp；组织仅一名成员。
+贡献者审计：抽查 compress-kit contributors 仅 holtwood；组织仅一名成员。
 与 AI Infra 主线弱相关，仅在对应话题中使用：
 
 - [compress-kit](https://github.com/vibe-knight/compress-kit)（C++/Go/Rust 跨语言压缩算法与二进制验证，P2）

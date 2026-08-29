@@ -1,7 +1,7 @@
 # 🔬 Nano vLLM 学习指南
 
 > **上游：** [GeeeekExplorer/nano-vllm](https://github.com/GeeeekExplorer/nano-vllm)
-> **你的 Fork：** [LessUp/nano-vllm](https://github.com/LessUp/nano-vllm)
+> **你的 Fork：** [holtwood/nano-vllm](https://github.com/holtwood/nano-vllm)
 > **语言：** Python
 > **建议学习时间：** 2 天
 > **面试重要性：** ⭐⭐⭐

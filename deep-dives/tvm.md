@@ -1,7 +1,7 @@
 # 🔬 TVM 深度学习指南
 
 > **上游：** [apache/tvm](https://github.com/apache/tvm)
-> **你的 Fork：** [LessUp/tvm](https://github.com/LessUp/tvm)
+> **你的 Fork：** [holtwood/tvm](https://github.com/holtwood/tvm)
 > **语言：** Python / C++
 > **建议学习时间：** 1.5 周
 > **面试重要性：** ⭐⭐⭐⭐

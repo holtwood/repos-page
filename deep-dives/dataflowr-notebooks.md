@@ -1,7 +1,7 @@
 # 🔬 Dataflowr Notebooks 学习指南
 
 > **上游：** [dataflowr/notebooks](https://github.com/dataflowr/notebooks)
-> **你的 Fork：** [LessUp/dataflowr-notebooks](https://github.com/LessUp/dataflowr-notebooks)
+> **你的 Fork：** [holtwood/dataflowr-notebooks](https://github.com/holtwood/dataflowr-notebooks)
 > **语言：** Jupyter Notebook
 > **建议学习时间：** 按需
 > **面试重要性：** ⭐⭐

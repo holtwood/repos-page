@@ -1,7 +1,7 @@
 # 🔬 Triton Puzzles 学习指南
 
 > **上游：** [gpu-mode/Triton-Puzzles](https://github.com/gpu-mode/Triton-Puzzles)
-> **你的 Fork：** [LessUp/Triton-Puzzles](https://github.com/LessUp/Triton-Puzzles)
+> **你的 Fork：** [holtwood/Triton-Puzzles](https://github.com/holtwood/Triton-Puzzles)
 > **语言：** Jupyter Notebook
 > **建议学习时间：** 3 天
 > **面试重要性：** ⭐⭐⭐⭐

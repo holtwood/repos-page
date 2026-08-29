@@ -1,7 +1,7 @@
 # 🔬 TensorRT-LLM 深度学习指南
 
 > **上游：** [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
-> **你的 Fork：** [LessUp/TensorRT-LLM](https://github.com/LessUp/TensorRT-LLM)
+> **你的 Fork：** [holtwood/TensorRT-LLM](https://github.com/holtwood/TensorRT-LLM)
 > **语言：** Python / C++
 > **建议学习时间：** 1.5 周
 > **面试重要性：** ⭐⭐⭐⭐

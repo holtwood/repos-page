@@ -1,7 +1,7 @@
 # 🔬 minGPT 学习指南
 
 > **上游：** [karpathy/minGPT](https://github.com/karpathy/minGPT)
-> **你的 Fork：** [LessUp/minGPT](https://github.com/LessUp/minGPT)
+> **你的 Fork：** [holtwood/minGPT](https://github.com/holtwood/minGPT)
 > **语言：** Python
 > **建议学习时间：** 1 天
 > **面试重要性：** ⭐⭐

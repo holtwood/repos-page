@@ -1,7 +1,7 @@
 # 🔬 LightLLM 学习指南
 
 > **上游：** [ModelTC/LightLLM](https://github.com/ModelTC/LightLLM)
-> **你的 Fork：** [LessUp/LightLLM](https://github.com/LessUp/LightLLM)
+> **你的 Fork：** [holtwood/LightLLM](https://github.com/holtwood/LightLLM)
 > **语言：** Python
 > **建议学习时间：** 3 天
 > **面试重要性：** ⭐⭐⭐

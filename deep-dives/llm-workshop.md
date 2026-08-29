@@ -1,7 +1,7 @@
 # 🔬 LLM Workshop 学习指南
 
 > **上游：** [tylerelyt/LLM-Workshop](https://github.com/tylerelyt/LLM-Workshop)
-> **你的 Fork：** [LessUp/LLM-Workshop](https://github.com/LessUp/LLM-Workshop)
+> **你的 Fork：** [holtwood/LLM-Workshop](https://github.com/holtwood/LLM-Workshop)
 > **语言：** Python
 > **建议学习时间：** 按需
 > **面试重要性：** ⭐⭐

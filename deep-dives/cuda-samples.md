@@ -1,7 +1,7 @@
 # 🔬 CUDA Samples 深度学习指南
 
 > **上游：** [NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples)
-> **你的 Fork：** [LessUp/cuda-samples](https://github.com/LessUp/cuda-samples)
+> **你的 Fork：** [holtwood/cuda-samples](https://github.com/holtwood/cuda-samples)
 > **语言：** C++ / CUDA
 > **建议学习时间：** 2 周
 > **面试重要性：** ⭐⭐⭐⭐⭐

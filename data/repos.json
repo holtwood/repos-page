@@ -1,12 +1,6 @@
 {
-  "audited_at": "2026-08-19",
+  "audited_at": "2026-08-30",
   "accounts": {
-    "LessUp": {
-      "public": 31,
-      "private": 1,
-      "forks": 22,
-      "note": "个人"
-    },
     "open-infra-ai": {
       "public": 7,
       "private": 0,
@@ -20,154 +14,212 @@
       "note": "生物信息与 C++ 工程"
     },
     "vibe-knight": {
-      "public": 14,
+      "public": 15,
       "private": 1,
       "forks": 0,
       "note": "实验性与工具"
+    },
+    "holtwood": {
+      "public": 33,
+      "private": 1,
+      "forks": 23,
+      "note": "个人"
     }
   },
   "repos": [
     {
       "name": "ai-infra-interview-prep",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "Markdown",
       "domain": "求职规划",
       "ai_relevance": "高",
       "resume_level": "中",
-      "categories": ["lessup-owned"],
+      "categories": [
+        "lessup-owned"
+      ],
       "notes": {
         "lessup-owned": "12 周 AI Infra 转行计划、能力矩阵、面试执行"
-      }
+      },
+      "links_ok": true
     },
     {
-      "name": "github-repos-hub",
-      "account": "LessUp",
+      "name": "repos-page",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "Markdown",
       "domain": "仓库导航",
       "ai_relevance": "中",
       "resume_level": "低",
-      "categories": ["lessup-owned"],
+      "categories": [
+        "lessup-owned"
+      ],
       "notes": {
         "lessup-owned": "本仓库：全部仓库盘点与 deep-dives"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "stars-index",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "Python",
       "domain": "资源索引",
       "ai_relevance": "低",
       "resume_level": "低",
-      "categories": ["lessup-owned", "tools-and-unrelated"],
+      "categories": [
+        "lessup-owned",
+        "tools-and-unrelated"
+      ],
       "notes": {
         "lessup-owned": "1300+ Star 项目分类索引",
         "tools-and-unrelated": "1300+ Star 项目分类索引（本 Hub 不复制其内容）"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "cpp-high-performance-guide",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "C++",
       "domain": "性能工程",
       "ai_relevance": "中",
       "resume_level": "中",
-      "categories": ["lessup-owned", "hpc-and-transferable"],
+      "categories": [
+        "lessup-owned",
+        "hpc-and-transferable"
+      ],
       "notes": {
         "lessup-owned": "可运行的 C++20 性能工程指南：示例、基准、VitePress 文档站",
         "hpc-and-transferable": {
           "signal": "C++20 性能工程、SIMD、内存优化、基准测试",
           "usage": "辅助；内容可作面试复习材料"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "bitcal",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "C++",
       "domain": "位运算练习",
       "ai_relevance": "低",
       "resume_level": "低",
-      "categories": ["lessup-owned", "hpc-and-transferable"],
+      "categories": [
+        "lessup-owned",
+        "hpc-and-transferable"
+      ],
       "notes": {
         "lessup-owned": "头文件 C++23 位运算库，AVX2，实验性",
         "hpc-and-transferable": {
           "signal": "C++23、AVX2 位运算",
           "usage": "低优先级"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "TensorTonic-Solutions",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "Python",
       "domain": "练习解答",
       "ai_relevance": "中",
       "resume_level": "低",
-      "categories": ["lessup-owned", "tools-and-unrelated"],
+      "categories": [
+        "lessup-owned",
+        "tools-and-unrelated"
+      ],
       "notes": {
         "lessup-owned": "TensorTonic 题解",
         "tools-and-unrelated": "TensorTonic 题解"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "awesome-cursorrules-zh",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "JavaScript",
       "domain": "工具资源",
       "ai_relevance": "无",
       "resume_level": "低",
-      "categories": ["lessup-owned", "tools-and-unrelated"],
+      "categories": [
+        "lessup-owned",
+        "tools-and-unrelated"
+      ],
       "notes": {
         "lessup-owned": "Cursor 规则中文精选（AI 翻译/整理性质）",
         "tools-and-unrelated": "Cursor 规则中文精选（AI 翻译/整理性质）"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "hugo-blog",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "CSS",
       "domain": "博客",
       "ai_relevance": "无",
       "resume_level": "低",
-      "categories": ["lessup-owned", "tools-and-unrelated"],
+      "categories": [
+        "lessup-owned",
+        "tools-and-unrelated"
+      ],
       "notes": {
         "lessup-owned": "个人博客站点",
         "tools-and-unrelated": "个人博客"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "LessUp",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "original",
       "language": "Markdown",
       "domain": "个人主页",
       "ai_relevance": "低",
       "resume_level": "中",
-      "categories": ["lessup-owned"],
+      "categories": [
+        "lessup-owned"
+      ],
       "notes": {
         "lessup-owned": "Profile 展示页"
-      }
+      },
+      "links_ok": true
+    },
+    {
+      "name": "JadeAI",
+      "account": "holtwood",
+      "visibility": "public",
+      "property": "original",
+      "language": "TypeScript",
+      "domain": "求职工具",
+      "ai_relevance": "高",
+      "resume_level": "中",
+      "categories": [
+        "lessup-owned",
+        "tools-and-unrelated"
+      ],
+      "notes": {
+        "lessup-owned": "AI 驱动的简历与求职工作台",
+        "tools-and-unrelated": "求职工具"
+      },
+      "links_ok": true
     },
     {
       "name": "cuda-samples",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "NVIDIA/cuda-samples",
@@ -175,14 +227,17 @@
       "behind": 0,
       "language": "C++",
       "priority": "P1",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "CUDA 特性官方示例；只跑 0_Introduction、2_Concepts_and_Techniques、矩阵乘法相关样例"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "SGEMM_CUDA",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "siboehm/SGEMM_CUDA",
@@ -190,14 +245,17 @@
       "behind": 0,
       "language": "CUDA",
       "priority": "P1",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "SGEMM 优化阶梯（naive→WMMA）经典教程，已中文化"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "cuda-course",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "Infatoshi/cuda-course",
@@ -205,14 +263,17 @@
       "behind": 0,
       "language": "CUDA",
       "priority": "P1",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "CUDA 入门课程，与 cuda-samples 互补，选其一"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "Triton-Puzzles",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "gpu-mode/Triton-Puzzles",
@@ -220,14 +281,17 @@
       "behind": 0,
       "language": "Notebook",
       "priority": "P1",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "Triton 动手练习，第 4 周配合使用"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "extension-cpp",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "pytorch/extension-cpp",
@@ -235,14 +299,17 @@
       "behind": 0,
       "language": "Python",
       "priority": "P1",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "PyTorch C++ 扩展官方模板"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "nano-vllm",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "GeeeekExplorer/nano-vllm",
@@ -250,14 +317,17 @@
       "behind": 0,
       "language": "Python",
       "priority": "P1",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "极简 vLLM 复现，理解 PagedAttention 最短路径"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "mini-sglang",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "sgl-project/mini-sglang",
@@ -265,134 +335,161 @@
       "behind": 0,
       "language": "Python",
       "priority": "P1",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "紧凑版 SGLang，理解 serving 主循环"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "flash-attention",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "Dao-AILab/flash-attention",
       "ahead": 2,
-      "behind": 2,
+      "behind": 3,
       "language": "Python/CUDA",
       "priority": "P2",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "只读 core 目录 FlashAttention 前向实现"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "flashinfer",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "flashinfer-ai/flashinfer",
       "ahead": 8,
-      "behind": 102,
+      "behind": 171,
       "language": "Python/CUDA",
       "priority": "P2",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "Kernel 库，对照 triton-fused-ops 的 API 设计"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "vllm",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "vllm-project/vllm",
       "ahead": 14,
-      "behind": 498,
+      "behind": 901,
       "language": "Python",
       "priority": "P2",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "只读 core scheduler、block manager、worker 主链路"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "sglang",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "sgl-project/sglang",
       "ahead": 12,
-      "behind": 637,
+      "behind": 1218,
       "language": "Python",
       "priority": "P2",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "只读 scheduler 与 router"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "TensorRT-LLM",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "NVIDIA/TensorRT-LLM",
       "ahead": 1,
-      "behind": 363,
+      "behind": 671,
       "language": "Python/C++",
       "priority": "P2",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "只读 attention/quantization 文档与 benchmark 目录"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "triton",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "triton-lang/triton",
       "ahead": 0,
-      "behind": 68,
+      "behind": 147,
       "language": "MLIR",
       "priority": "P2",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "只读 python/triton 语言前端与 tutorial"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "tvm",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "apache/tvm",
       "ahead": 1,
-      "behind": 20,
+      "behind": 62,
       "language": "Python",
       "priority": "P3",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "仅投 ML Compiler 岗时读 tensor expression 与 TE 调度"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "LightLLM",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "ModelTC/LightLLM",
       "ahead": 12,
-      "behind": 8,
+      "behind": 37,
       "language": "Python",
       "priority": "P2",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "轻量推理框架，triton kernel 实现可对照"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "lectures",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "gpu-mode/lectures",
@@ -400,14 +497,17 @@
       "behind": 0,
       "language": "Notebook",
       "priority": "P1",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "GPU MODE 讲座材料，性能分析专题"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "dataflowr-notebooks",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "dataflowr/notebooks",
@@ -415,14 +515,17 @@
       "behind": 0,
       "language": "Notebook",
       "priority": "P3",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "深度学习课程笔记，按需查阅"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "LLM-Workshop",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "tylerelyt/LLM-Workshop",
@@ -430,14 +533,17 @@
       "behind": 0,
       "language": "Python",
       "priority": "P3",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "LLM 应用课程，与 Infra 主线弱相关"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "minGPT",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "karpathy/minGPT",
@@ -445,14 +551,17 @@
       "behind": 0,
       "language": "Python",
       "priority": "P3",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "GPT 最小实现，理解 Transformer 结构用"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "tutorials",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "triton-inference-server/tutorials",
@@ -460,45 +569,74 @@
       "behind": 1,
       "language": "Python",
       "priority": "P3",
-      "categories": ["forks-and-translations"],
+      "categories": [
+        "forks-and-translations"
+      ],
       "notes": {
         "forks-and-translations": "Triton Inference Server 教程（注意与 Triton 语言区分）"
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "ompi",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "open-mpi/ompi",
       "ahead": 13,
-      "behind": 48,
+      "behind": 81,
       "language": "C",
       "priority": "P3",
-      "categories": ["forks-and-translations", "hpc-and-transferable"],
+      "categories": [
+        "forks-and-translations",
+        "hpc-and-transferable"
+      ],
       "notes": {
         "forks-and-translations": "MPI 实现，分布式通信理论参考",
         "hpc-and-transferable": {
           "signal": "MPI/分布式通信理论学习参考",
           "usage": "P3，仅通信话题引用"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "Termius-Pro-zh_CN",
-      "account": "LessUp",
+      "account": "holtwood",
       "visibility": "public",
       "property": "fork",
       "upstream": "ArcSurge/Termius-Pro-zh_CN",
       "ahead": 0,
-      "behind": 0,
+      "behind": 2,
       "language": "Python",
       "priority": "无",
-      "categories": ["forks-and-translations", "tools-and-unrelated"],
+      "categories": [
+        "forks-and-translations",
+        "tools-and-unrelated"
+      ],
       "notes": {
         "forks-and-translations": "Termius 汉化，与 AI Infra 无关",
         "tools-and-unrelated": "Termius 汉化"
-      }
+      },
+      "links_ok": true
+    },
+    {
+      "name": "Clay",
+      "account": "holtwood",
+      "visibility": "public",
+      "property": "fork",
+      "upstream": "chaun-yi7/Clay",
+      "language": "CSS",
+      "priority": "无",
+      "categories": [
+        "forks-and-translations"
+      ],
+      "notes": {
+        "forks-and-translations": "Typora 主题,与 AI Infra 无关"
+      },
+      "links_ok": true,
+      "ahead": 0,
+      "behind": 0
     },
     {
       "name": "aicl-lab",
@@ -507,16 +645,20 @@
       "property": "org-project",
       "language": "Markdown",
       "license": "",
-      "contributors": "LessUp",
+      "contributors": "holtwood",
       "priority": "P0",
-      "categories": ["organizations", "original-projects"],
+      "categories": [
+        "organizations",
+        "original-projects"
+      ],
       "notes": {
         "organizations": "五仓作品集 landing 页与计划/面试材料唯一权威源",
         "original-projects": {
           "position": "五仓 landing 页、计划与面试证据包唯一权威源",
           "resume": "讲述入口"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "cuda-foundations",
@@ -525,16 +667,20 @@
       "property": "org-project",
       "language": "C++",
       "license": "MIT",
-      "contributors": "LessUp + CI bot",
+      "contributors": "holtwood + CI bot",
       "priority": "P0",
-      "categories": ["organizations", "original-projects"],
+      "categories": [
+        "organizations",
+        "original-projects"
+      ],
       "notes": {
         "organizations": "L1：CUDA 算子工程学习路径（原 cuda-kernel-academy）",
         "original-projects": {
           "position": "CUDA 算子工程学习路径，SGEMM 到可复用推理组件（原 cuda-kernel-academy）",
           "resume": "Kernel 主项目之一"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "triton-fused-ops",
@@ -543,16 +689,20 @@
       "property": "org-project",
       "language": "Python",
       "license": "MIT",
-      "contributors": "LessUp",
+      "contributors": "holtwood",
       "priority": "P0",
-      "categories": ["organizations", "original-projects"],
+      "categories": [
+        "organizations",
+        "original-projects"
+      ],
       "notes": {
         "organizations": "L2：Triton 算子库 + torch.library 注册",
         "original-projects": {
           "position": "Triton 算子库（RMSNorm+RoPE/SwiGLU/FlashAttention/SGEMM）+ torch.library 注册",
           "resume": "Kernel 主项目之一"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "cuflash-attn",
@@ -561,16 +711,20 @@
       "property": "org-project",
       "language": "CUDA",
       "license": "MIT",
-      "contributors": "LessUp",
+      "contributors": "holtwood",
       "priority": "P0",
-      "categories": ["organizations", "original-projects"],
+      "categories": [
+        "organizations",
+        "original-projects"
+      ],
       "notes": {
         "organizations": "L3：CUDA C++ FlashAttention 前后向（WMMA）",
         "original-projects": {
           "position": "从零 CUDA C++ FlashAttention 前后向（FP16/BF16 WMMA），含 grid.y 越界修复与 causal 跳过优化",
           "resume": "Kernel 主项目之一"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "tiny-llm",
@@ -579,16 +733,20 @@
       "property": "org-project",
       "language": "C++",
       "license": "MIT",
-      "contributors": "LessUp",
+      "contributors": "holtwood",
       "priority": "P0",
-      "categories": ["organizations", "original-projects"],
+      "categories": [
+        "organizations",
+        "original-projects"
+      ],
       "notes": {
         "organizations": "L4：CUDA 原生 C++ 推理引擎（GGUF/W8A16/分页 KV）",
         "original-projects": {
           "position": "CUDA 原生 C++ 推理引擎：GGUF 加载、W8A16 量化、分页 KV 策略 1；TPOT ≈ 6.1 ms/token（本机实测，RTX 3060 Laptop）；170 tests",
           "resume": "推理系统主项目"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "paged-infer",
@@ -597,16 +755,20 @@
       "property": "org-project",
       "language": "Rust",
       "license": "MIT",
-      "contributors": "LessUp",
+      "contributors": "holtwood",
       "priority": "P0",
-      "categories": ["organizations", "original-projects"],
+      "categories": [
+        "organizations",
+        "original-projects"
+      ],
       "notes": {
         "organizations": "L4：PagedAttention 分页 KV + Continuous Batching 控制面",
         "original-projects": {
           "position": "PagedAttention 分页 KV + Continuous Batching 控制面（Rust）；3 并发 e2e 与 llama.cpp greedy 对齐（诚实记录量化差异）",
           "resume": "与 tiny-llm 组成推理系统主项目"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": ".github",
@@ -616,7 +778,9 @@
       "language": "",
       "license": "",
       "contributors": "",
-      "categories": ["organizations"],
+      "categories": [
+        "organizations"
+      ],
       "notes": {
         "organizations": "组织级配置"
       }
@@ -628,7 +792,10 @@
       "property": "org-project",
       "language": "C++",
       "priority": "P0",
-      "categories": ["original-projects", "hpc-and-transferable"],
+      "categories": [
+        "original-projects",
+        "hpc-and-transferable"
+      ],
       "notes": {
         "original-projects": {
           "position": "C++23 高性能 FASTQ 压缩：3.97x 压缩比、O(1) 随机访问、oneTBB 并发流水线、CI/Sanitizer",
@@ -638,7 +805,8 @@
           "signal": "C++23、oneTBB 并发流水线、CI/Sanitizer、O(1) 随机访问数据结构",
           "usage": "C++ 工程质量辅助项目（P0 辅助）"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "fastq-tools",
@@ -647,7 +815,10 @@
       "property": "org-project",
       "language": "C++",
       "priority": "P0",
-      "categories": ["original-projects", "hpc-and-transferable"],
+      "categories": [
+        "original-projects",
+        "hpc-and-transferable"
+      ],
       "notes": {
         "original-projects": {
           "position": "FASTQ 质控工具：零拷贝 I/O、TBB 流水线",
@@ -657,7 +828,8 @@
           "signal": "零拷贝 I/O、流水线设计",
           "usage": "辅助"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "minibwa-rust",
@@ -666,7 +838,10 @@
       "property": "org-project",
       "language": "Rust",
       "priority": "P0",
-      "categories": ["original-projects", "hpc-and-transferable"],
+      "categories": [
+        "original-projects",
+        "hpc-and-transferable"
+      ],
       "notes": {
         "original-projects": {
           "position": "Rust 重写 BWA 序列比对核心",
@@ -676,7 +851,8 @@
           "signal": "Rust 系统编程、算法重写",
           "usage": "辅助"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "fq-compressor-rust",
@@ -685,58 +861,70 @@
       "property": "org-project",
       "language": "Rust",
       "priority": "P3",
-      "categories": ["original-projects"],
+      "categories": [
+        "original-projects"
+      ],
       "notes": {
         "original-projects": {
           "position": "fq-compressor 的 Rust 版本",
           "resume": "辅助"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "micos-2024",
       "account": "open-genomics",
       "visibility": "public",
       "property": "org-project",
-      "language": "",
+      "language": "Python",
       "priority": "P3",
-      "categories": ["original-projects"],
+      "categories": [
+        "original-projects"
+      ],
       "notes": {
         "original-projects": {
           "position": "宏基因组综合分析平台（猛犸杯 2024 参赛项目）",
           "resume": "历史项目"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "wiki-bioinfo",
       "account": "open-genomics",
       "visibility": "public",
       "property": "org-project",
-      "language": "",
+      "language": "MDX",
       "priority": "P3",
-      "categories": ["original-projects"],
+      "categories": [
+        "original-projects"
+      ],
       "notes": {
         "original-projects": {
           "position": "中文生物信息知识库",
           "resume": "社区贡献展示"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "awesome-bioinfo-algorithms",
       "account": "open-genomics",
       "visibility": "public",
       "property": "org-project",
-      "language": "",
+      "language": "Python",
       "priority": "P3",
-      "categories": ["original-projects"],
+      "categories": [
+        "original-projects"
+      ],
       "notes": {
         "original-projects": {
           "position": "算法知识库 + CLI 维护工具",
           "resume": "低优先级"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "compress-kit",
@@ -745,13 +933,16 @@
       "property": "org-project",
       "language": "C++",
       "priority": "P2",
-      "categories": ["hpc-and-transferable"],
+      "categories": [
+        "hpc-and-transferable"
+      ],
       "notes": {
         "hpc-and-transferable": {
           "signal": "跨语言压缩算法与二进制级验证",
           "usage": "低优先级"
         }
-      }
+      },
+      "links_ok": true
     },
     {
       "name": "cudaimg",
@@ -760,33 +951,36 @@
       "property": "org-project",
       "language": "CUDA",
       "priority": "P2",
-      "categories": ["hpc-and-transferable"],
+      "categories": [
+        "hpc-and-transferable"
+      ],
       "notes": {
         "hpc-and-transferable": {
           "signal": "CUDA 图像处理",
           "usage": "可作 CUDA 广度证据"
         }
-      }
+      },
+      "links_ok": true
     }
   ],
   "retired": [
     {
-      "old": "LessUp/sgemm-optimization",
+      "old": "holtwood/sgemm-optimization",
       "status": "404",
       "note": "主页移除展示；SGEMM 主题由 SGEMM_CUDA（Fork+中文注释）与 open-infra-ai/cuda-foundations 覆盖"
     },
     {
-      "old": "LessUp/the-art-of-hpc-zh",
+      "old": "holtwood/the-art-of-hpc-zh",
       "status": "404",
       "note": "主页移除展示（HPC 教材中文翻译，已放弃）"
     },
     {
-      "old": "LessUp/cursor-rules",
+      "old": "holtwood/cursor-rules",
       "status": "404",
       "note": "主页移除展示"
     },
     {
-      "old": "LessUp/awesome-claude-skills-zh",
+      "old": "holtwood/awesome-claude-skills-zh",
       "status": "404",
       "note": "主页移除展示"
     }
