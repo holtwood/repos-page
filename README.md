@@ -8,7 +8,7 @@
 **最近审计日期：2026-08-30**（基于 GitHub API 实时数据，方法见 [methodology.md](methodology.md)）
 
 <!-- AUTO:start badges -->
-![审计日期](https://img.shields.io/badge/审计-2026-08-30-4c9) ![仓库总数](https://img.shields.io/badge/仓库-69-4c9) ![公开](https://img.shields.io/badge/公开-62-blue) ![Fork](https://img.shields.io/badge/Fork-23-orange) ![文档站](https://img.shields.io/badge/文档站-docsify-8A2BE2)
+![审计日期](https://img.shields.io/badge/审计-2026-08-31-4c9) ![仓库总数](https://img.shields.io/badge/仓库-69-4c9) ![公开](https://img.shields.io/badge/公开-62-blue) ![Fork](https://img.shields.io/badge/Fork-23-orange) ![文档站](https://img.shields.io/badge/文档站-docsify-8A2BE2)
 <!-- AUTO:end badges -->
 
 ## ⭐ 主要项目精选

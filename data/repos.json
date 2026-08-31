@@ -1,5 +1,5 @@
 {
-  "audited_at": "2026-08-30",
+  "audited_at": "2026-08-31",
   "accounts": {
     "open-infra-ai": {
       "public": 7,
@@ -42,7 +42,7 @@
       "notes": {
         "lessup-owned": "12 周 AI Infra 转行计划、能力矩阵、面试执行"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "repos-page",
@@ -59,7 +59,7 @@
       "notes": {
         "lessup-owned": "本仓库：全部仓库盘点与 deep-dives"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "stars-index",
@@ -78,7 +78,7 @@
         "lessup-owned": "1300+ Star 项目分类索引",
         "tools-and-unrelated": "1300+ Star 项目分类索引（本 Hub 不复制其内容）"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "cpp-high-performance-guide",
@@ -100,7 +100,7 @@
           "usage": "辅助；内容可作面试复习材料"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "bitcal",
@@ -122,7 +122,7 @@
           "usage": "低优先级"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "TensorTonic-Solutions",
@@ -141,7 +141,7 @@
         "lessup-owned": "TensorTonic 题解",
         "tools-and-unrelated": "TensorTonic 题解"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "awesome-cursorrules-zh",
@@ -160,7 +160,7 @@
         "lessup-owned": "Cursor 规则中文精选（AI 翻译/整理性质）",
         "tools-and-unrelated": "Cursor 规则中文精选（AI 翻译/整理性质）"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "hugo-blog",
@@ -179,7 +179,7 @@
         "lessup-owned": "个人博客站点",
         "tools-and-unrelated": "个人博客"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "LessUp",
@@ -196,7 +196,7 @@
       "notes": {
         "lessup-owned": "Profile 展示页"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "JadeAI",
@@ -215,7 +215,7 @@
         "lessup-owned": "AI 驱动的简历与求职工作台",
         "tools-and-unrelated": "求职工具"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "cuda-samples",
@@ -233,7 +233,7 @@
       "notes": {
         "forks-and-translations": "CUDA 特性官方示例；只跑 0_Introduction、2_Concepts_and_Techniques、矩阵乘法相关样例"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "SGEMM_CUDA",
@@ -251,7 +251,7 @@
       "notes": {
         "forks-and-translations": "SGEMM 优化阶梯（naive→WMMA）经典教程，已中文化"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "cuda-course",
@@ -269,7 +269,7 @@
       "notes": {
         "forks-and-translations": "CUDA 入门课程，与 cuda-samples 互补，选其一"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "Triton-Puzzles",
@@ -287,7 +287,7 @@
       "notes": {
         "forks-and-translations": "Triton 动手练习，第 4 周配合使用"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "extension-cpp",
@@ -305,7 +305,7 @@
       "notes": {
         "forks-and-translations": "PyTorch C++ 扩展官方模板"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "nano-vllm",
@@ -323,7 +323,7 @@
       "notes": {
         "forks-and-translations": "极简 vLLM 复现，理解 PagedAttention 最短路径"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "mini-sglang",
@@ -341,7 +341,7 @@
       "notes": {
         "forks-and-translations": "紧凑版 SGLang，理解 serving 主循环"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "flash-attention",
@@ -359,7 +359,7 @@
       "notes": {
         "forks-and-translations": "只读 core 目录 FlashAttention 前向实现"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "flashinfer",
@@ -377,7 +377,7 @@
       "notes": {
         "forks-and-translations": "Kernel 库，对照 triton-fused-ops 的 API 设计"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "vllm",
@@ -395,7 +395,7 @@
       "notes": {
         "forks-and-translations": "只读 core scheduler、block manager、worker 主链路"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "sglang",
@@ -413,7 +413,7 @@
       "notes": {
         "forks-and-translations": "只读 scheduler 与 router"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "TensorRT-LLM",
@@ -431,7 +431,7 @@
       "notes": {
         "forks-and-translations": "只读 attention/quantization 文档与 benchmark 目录"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "triton",
@@ -449,7 +449,7 @@
       "notes": {
         "forks-and-translations": "只读 python/triton 语言前端与 tutorial"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "tvm",
@@ -467,7 +467,7 @@
       "notes": {
         "forks-and-translations": "仅投 ML Compiler 岗时读 tensor expression 与 TE 调度"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "LightLLM",
@@ -485,7 +485,7 @@
       "notes": {
         "forks-and-translations": "轻量推理框架，triton kernel 实现可对照"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "lectures",
@@ -503,7 +503,7 @@
       "notes": {
         "forks-and-translations": "GPU MODE 讲座材料，性能分析专题"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "dataflowr-notebooks",
@@ -521,7 +521,7 @@
       "notes": {
         "forks-and-translations": "深度学习课程笔记，按需查阅"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "LLM-Workshop",
@@ -539,7 +539,7 @@
       "notes": {
         "forks-and-translations": "LLM 应用课程，与 Infra 主线弱相关"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "minGPT",
@@ -557,7 +557,7 @@
       "notes": {
         "forks-and-translations": "GPT 最小实现，理解 Transformer 结构用"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "tutorials",
@@ -575,7 +575,7 @@
       "notes": {
         "forks-and-translations": "Triton Inference Server 教程（注意与 Triton 语言区分）"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "ompi",
@@ -598,7 +598,7 @@
           "usage": "P3，仅通信话题引用"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "Termius-Pro-zh_CN",
@@ -618,7 +618,7 @@
         "forks-and-translations": "Termius 汉化，与 AI Infra 无关",
         "tools-and-unrelated": "Termius 汉化"
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "Clay",
@@ -634,7 +634,7 @@
       "notes": {
         "forks-and-translations": "Typora 主题,与 AI Infra 无关"
       },
-      "links_ok": true,
+      "links_ok": false,
       "ahead": 0,
       "behind": 0
     },
@@ -658,7 +658,7 @@
           "resume": "讲述入口"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "cuda-foundations",
@@ -680,7 +680,7 @@
           "resume": "Kernel 主项目之一"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "triton-fused-ops",
@@ -702,7 +702,7 @@
           "resume": "Kernel 主项目之一"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "cuflash-attn",
@@ -724,7 +724,7 @@
           "resume": "Kernel 主项目之一"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "tiny-llm",
@@ -746,7 +746,7 @@
           "resume": "推理系统主项目"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "paged-infer",
@@ -768,7 +768,7 @@
           "resume": "与 tiny-llm 组成推理系统主项目"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": ".github",
@@ -806,7 +806,7 @@
           "usage": "C++ 工程质量辅助项目（P0 辅助）"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "fastq-tools",
@@ -829,7 +829,7 @@
           "usage": "辅助"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "minibwa-rust",
@@ -852,7 +852,7 @@
           "usage": "辅助"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "fq-compressor-rust",
@@ -870,7 +870,7 @@
           "resume": "辅助"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "micos-2024",
@@ -888,7 +888,7 @@
           "resume": "历史项目"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "wiki-bioinfo",
@@ -906,7 +906,7 @@
           "resume": "社区贡献展示"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "awesome-bioinfo-algorithms",
@@ -924,7 +924,7 @@
           "resume": "低优先级"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "compress-kit",
@@ -942,7 +942,7 @@
           "usage": "低优先级"
         }
       },
-      "links_ok": true
+      "links_ok": false
     },
     {
       "name": "cudaimg",
@@ -960,7 +960,7 @@
           "usage": "可作 CUDA 广度证据"
         }
       },
-      "links_ok": true
+      "links_ok": false
     }
   ],
   "retired": [

@@ -5,6 +5,7 @@
 ## [Unreleased] — 2026-08-19
 
 ### Changed
+- 数据快照更新（2026-08-31）：ahead/behind 与链接状态已刷新
 - 账号迁移:LessUp → holtwood(repos-page);README 主页化 + GitHub Pages 部署
 - 新增 README 主要项目精选区(render_featured)与 GitHub Pages 文档站部署(pages.yml)
 
