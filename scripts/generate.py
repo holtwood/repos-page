@@ -176,7 +176,7 @@ def render_badges(data):
 
 
 # --- 精选区（README 顶部"主要开发项目"） ---
-FEATURED_EXCLUDE = {"repos-page", ".github", "LessUp"}
+FEATURED_EXCLUDE = {"repos-db", ".github", "LessUp"}
 RESUME_ORDER = {"高": 0, "中": 1, "低": 2, "": 3}
 AI_ORDER = {"高": 0, "中": 1, "低": 2, "无": 3, "": 4}
 PRIORITY_ORDER = {"P0": 0, "P1": 1, "P2": 2, "P3": 3, "无": 4, "": 4}

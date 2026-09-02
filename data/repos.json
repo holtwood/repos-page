@@ -45,7 +45,7 @@
       "links_ok": true
     },
     {
-      "name": "repos-page",
+      "name": "repos-db",
       "account": "holtwood",
       "visibility": "public",
       "property": "original",

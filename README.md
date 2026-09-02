@@ -30,11 +30,11 @@
 | [cpp-high-performance-guide](https://github.com/holtwood/cpp-high-performance-guide) | C++ | holtwood | 可运行的 C++20 性能工程指南：示例、基准、VitePress 文档站 |
 <!-- AUTO:end featured -->
 
-> 完整盘点见下方各分类与[文档站](https://holtwood.github.io/repos-page/)。
+> 完整盘点见下方各分类与[文档站](https://holtwood.github.io/repos-db/)。
 
 ## 📖 文档站与完整盘点
 
-可搜索文档站（GitHub Pages）：**https://holtwood.github.io/repos-page/**（docsify 静态站，支持全文搜索与侧边栏导航）
+可搜索文档站（GitHub Pages）：**https://holtwood.github.io/repos-db/**（docsify 静态站，支持全文搜索与侧边栏导航）
 
 完整盘点按分类：
 
@@ -88,7 +88,7 @@ CHANGELOG.md
 
 | 仓库 | 职责 |
 |------|------|
-| repos-page（本仓库） | 仓库盘点、分类、导航、迁移记录、deep-dives |
+| repos-db（本仓库） | 仓库盘点、分类、导航、迁移记录、deep-dives |
 | [ai-infra-interview-prep](https://github.com/holtwood/ai-infra-interview-prep) | 12 周计划、学习 TODO、能力矩阵、面试执行 |
 | [open-infra-ai/aicl-lab](https://github.com/open-infra-ai/aicl-lab) | 五仓 AI Infra 技术证据与项目讲述的唯一事实来源 |
 | [holtwood/LessUp](https://github.com/holtwood/LessUp) | 个人主页与成果展示 |
