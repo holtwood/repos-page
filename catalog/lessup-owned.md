@@ -7,7 +7,7 @@
 |---|---|---|---|---|---|
 | [ai-infra-interview-prep](https://github.com/holtwood/ai-infra-interview-prep) | Markdown | 求职规划 | 高 | 中 | 12 周 AI Infra 转行计划、能力矩阵、面试执行 |
 | [repos-db](https://github.com/holtwood/repos-db) | Markdown | 仓库导航 | 中 | 低 | 本仓库：全部仓库盘点与 deep-dives |
-| [stars-index](https://github.com/holtwood/stars-index) | Python | 资源索引 | 低 | 低 | 1300+ Star 项目分类索引 |
+| [stars-db](https://github.com/holtwood/stars-db) | Python | 资源索引 | 低 | 低 | 1300+ Star 项目分类索引 |
 | [cpp-high-performance-guide](https://github.com/holtwood/cpp-high-performance-guide) | C++ | 性能工程 | 中 | 中 | 可运行的 C++20 性能工程指南：示例、基准、VitePress 文档站 |
 | [bitcal](https://github.com/holtwood/bitcal) | C++ | 位运算练习 | 低 | 低 | 头文件 C++23 位运算库，AVX2，实验性 |
 | [TensorTonic-Solutions](https://github.com/holtwood/TensorTonic-Solutions) | Python | 练习解答 | 中 | 低 | TensorTonic 题解 |

@@ -62,7 +62,7 @@
       "links_ok": true
     },
     {
-      "name": "stars-index",
+      "name": "stars-db",
       "account": "holtwood",
       "visibility": "public",
       "property": "original",

@@ -92,4 +92,4 @@ CHANGELOG.md
 | [ai-infra-interview-prep](https://github.com/holtwood/ai-infra-interview-prep) | 12 周计划、学习 TODO、能力矩阵、面试执行 |
 | [open-infra-ai/aicl-lab](https://github.com/open-infra-ai/aicl-lab) | 五仓 AI Infra 技术证据与项目讲述的唯一事实来源 |
 | [holtwood/LessUp](https://github.com/holtwood/LessUp) | 个人主页与成果展示 |
-| [stars-index](https://github.com/holtwood/stars-index) | Star 资源分类索引（1300+ 条目） |
+| [stars-db](https://github.com/holtwood/stars-db) | Star 资源分类索引（1300+ 条目） |
