@@ -164,7 +164,7 @@ def render_badges(data):
     total = sum(a["public"] + a["private"] for a in accts.values())
     pub = sum(a["public"] for a in accts.values())
     forks = sum(a["forks"] for a in accts.values())
-    audited = data["audited_at"]
+    audited = data["audited_at"].replace("-", "--")  # shields.io 日期连字符需转义
     badges = [
         f"![审计日期](https://img.shields.io/badge/审计-{audited}-4c9)",
         f"![仓库总数](https://img.shields.io/badge/仓库-{total}-4c9)",
